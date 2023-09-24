@@ -1,6 +1,6 @@
 # PyMOLハンズオン
 
-![acrb](images/morphing.gif)
+![acrb](images/pymol_acrb.png)
 
 #### PyMOLとは？
 

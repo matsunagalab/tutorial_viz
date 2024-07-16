@@ -1,4 +1,4 @@
-# PyMOLハンズオン
+# PyMOLチュートリアル
 
 このチュートリアルを独習したい場合は、[過去のセミナーの動画](https://suitc.sharepoint.com/:v:/r/sites/GR_matsunagalab/Shared%20Documents/General/Recordings/%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF%E6%BC%94%E7%BF%923-20230705_151122-Meeting%20Recording.mp4?csf=1&web=1&e=GdI2o7)(研究室内限定の公開)を視聴しながら学習してください。
 

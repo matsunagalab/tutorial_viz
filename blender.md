@@ -18,6 +18,8 @@ Blenderは、オープンソースの3DCG制作ソフトウェアとして広く
 
 このチュートリアルでは、Molecular Nodesアドオンの基本的な使い方を学び、Blenderを用いた分子構造の可視化の基礎を習得することを目指す。
 
+基本的には[ドキュメント](https://bradyajohnston.github.io/MolecularNodes/)に沿って進めていく。
+
 ## Blenderのインストールと Molecular Nodes アドオンの設定
 
 1. Blenderの公式ウェブサイト( https://www.blender.org/ )にアクセスし、最新版をダウンロードする。

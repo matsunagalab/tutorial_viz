@@ -1,6 +1,6 @@
 # 分子構造可視化のチュートリアル集
 
-![acrb](images/pymol_acrb.png)
+<img src="" width="300">
 
 - [PyMOLチュートリアル](pymol.md)
 - [VMDチュートリアル](vmd.md)

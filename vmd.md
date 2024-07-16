@@ -1,6 +1,6 @@
 # VMDチュートリアル
 
-<img src="images/villin.png" width="400">
+<img src="images/villin.png" width="800">
 
 ## 目次
 1. [はじめに](#はじめに)

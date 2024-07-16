@@ -1,8 +1,8 @@
-# 分子構造可視化のハンズオン集
+# 分子構造可視化のチュートリアル集
 
-![acrb](images/pymol_acrb.png)
+![acrb](images/pymol_acrb_small.png)
 
-- [PyMOLハンズオン](pymol.md)
-- [VMDハンズオン](vmd.md)
-- [Blenderハンズオン](blender.md)
+- [PyMOLチュートリアル](pymol.md)
+- [VMDチュートリアル](vmd.md)
+- [Blender(MolecularNodes)チュートリアル](blender.md)
 

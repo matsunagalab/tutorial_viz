@@ -2,7 +2,9 @@
 
 <img src="images/villin.png" width="800">
 
-このチュートリアルを独習したい場合は、[2024年度のセミナー動画(研究室内限定の公開)](https://suitc-my.sharepoint.com/:v:/r/personal/ymatsunaga_mail_saitama-u_ac_jp/Documents/lab/%E5%8B%95%E7%94%BB/20240717_vmd.mp4?csf=1&web=1&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=FYMjKh)を視聴して学習してください。
+このチュートリアルを独習したい場合は、以下を視聴して学習してください。
+
+- [2024年度のセミナー動画(研究室内限定の公開)](https://suitc-my.sharepoint.com/:v:/r/personal/ymatsunaga_mail_saitama-u_ac_jp/Documents/lab/%E5%8B%95%E7%94%BB/20240717_vmd.mp4?csf=1&web=1&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=FYMjKh)を視聴して学習してください。
 
 ## 目次
 1. [はじめに](#はじめに)

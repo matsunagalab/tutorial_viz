@@ -347,5 +347,5 @@ VMDの現在の状態（分子の読み込み状態、表示スタイル、視�
 
 ## 終わりに
 
-この文章はCaulde 3.5 Sonnet の Artifacts で作成されました。
+この文章はCaulde 3.5 Sonnet の Artifacts と協力して作成しました。
 

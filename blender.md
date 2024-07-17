@@ -1,5 +1,7 @@
 # Blender Molecular Nodes アドオン ハンズオンチュートリアル
 
+<img src="images/blender.png" width="800">
+
 ## 目次
 1. [はじめに](#はじめに)
 2. [Blenderのインストールと Molecular Nodes アドオンの設定](#Blenderのインストールと-Molecular-Nodes-アドオンの設定)

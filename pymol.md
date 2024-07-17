@@ -125,17 +125,17 @@ show sphere, organic around 5.0 and solvent
 構造の取得、ファイルの読み込み
 ```bash
 #PDB-IDを指定してPDBから構造データをとってくる
-fetch 4ake
+fetch 1ake
 #更に、Chain=Aを指定する
-fetch 4akeA
+fetch 1akeA
 #構造ファイルを読み込む
-load 4ake.pdb
+load 1ake.pdb
 ```
 
 Pymol session(pseファイル)の保存と読み込み
 ```bash
-save 4ake.pse
-load 4ake.pse
+save 1ake.pse
+load 1ake.pse
 ```
 
 画像ファイルとして保存
@@ -143,7 +143,7 @@ load 4ake.pse
 # レイトレーシングして綺麗にしてから
 ray
 # pngへ保存
-png 4ake.png
+png 1ake.png
 ```
 
 PyMOLの初期化
@@ -198,7 +198,7 @@ Sceneの呼び出し
 #### PyMOLのワークフロー
 
 1. 構造をとってくる
-    - `fetch 4ake `
+    - `fetch 1akeA`
 1. 見やすい角度や表現でsceneを保存する
     - `scene 001, store`
     - またはアップデートの時は、`scene 001, update`
@@ -215,7 +215,7 @@ Sceneの呼び出し
 初期化して構造をとってくる
 ```bash
 reinitialize
-fetch 4akeA
+fetch 1akeA
 ```
 
 二次構造と水素結合
@@ -225,7 +225,7 @@ as cartoon
 dss #本当はdsspかstrideで二次構造判定することを推奨
 # 主鎖の水素結合を表示
 as sticks, name c+n+o+ca
-Objectメニュー 4akeA -> Action -> find -> polar contacts -> just intra-main chain
+Objectメニュー 1akeA -> Action -> find -> polar contacts -> just intra-main chain
 ```
 
 疎水性
@@ -252,12 +252,12 @@ as surf
 Solvent accessible surface area (SASA)
 ```bash
 # PyMOLではSASAの値だけ
-Objectメニュー -> 4akeA -> compute -> surface area -> solvent accessible
+Objectメニュー -> 1akeA -> compute -> surface area -> solvent accessible
 ```
 
 静電ポテンシャル
 ```bash
-Objectメニュー -> 4akeA -> action -> generate -> vacuum electrostatics -> protein contact potential (local)
+Objectメニュー -> 1akeA -> action -> generate -> vacuum electrostatics -> protein contact potential (local)
 ```
 
 重ね合わせて構造比較
@@ -294,7 +294,7 @@ set surface_color, gray
 
 #### PyMOL実践1: リガンドとタンパク質の相互作用の可視化
 
-Adenylate kinase (PDB ID 1ake や 4ake)の 1ake 構造は、リガンド(Ap5A、PDBの中での残基名は `AP5`)が結合しています。リガンドがどの原子との相互作用によって結合しているのか確認してみましょう。
+Adenylate kinase の 1ake 構造は、リガンド(Ap5A、PDBの中での残基名は `AP5`)が結合しています。リガンドがどの原子との相互作用によって結合しているのか確認してみましょう。
 
 ```bash
 fetch 1akeA
@@ -318,7 +318,7 @@ zoom ligand
 原子名やアミノ酸残基名は含まれていません。
 したがって、PDBなどの原子名を含むファイルと一緒に読み込んでやる必要があります。
 
-トラジェクトデータは [ここ](https://suitc-my.sharepoint.com/:f:/r/personal/ymatsunaga_mail_saitama-u_ac_jp/Documents/lab/data/ak?csf=1&web=1&e=D7aLxp) からダウンロードしてください。このシミュレーションデータは、Adenylate kinase (PDB ID 1ake や 4ake)の1akeの構造から分子動力学シミュレーションを行って得られたものです。
+トラジェクトデータは `data/ak.pdb` `data/ak.dcd` からダウンロードしてください。このシミュレーションデータは、Adenylate kinase (PDB ID: 1ake)の1akeの構造から分子動力学シミュレーションを行って得られたものです。
 
 例えば、PDBとDCDファイルを読み込む場合、以下のようにします
 ```bash
@@ -375,7 +375,7 @@ show sticks, active
 #### PyMOL実践3: フォールディングトラジェクトリの観察
 Villin headpiece (PDB ID 1yrf)のフォールディングシミュレーションデータを観察します。
 
-トラジェクトデータは [ここ](https://suitc-my.sharepoint.com/:f:/r/personal/ymatsunaga_mail_saitama-u_ac_jp/Documents/lab/data/1yrf?csf=1&web=1&e=PyMjTZ) からダウンロードしてください。これは分子動力学シミュレーションから得られたトラジェクト理で、フォールディングとアンフォールディングを何回か繰り返しています。
+トラジェクトデータは `data/villin.pdb` `data/villin.dcd` からダウンロードしてください。これは分子動力学シミュレーションから得られたトラジェクト理で、フォールディングとアンフォールディングを何回か繰り返しています。
 
 以下のコマンドでデータを読み込みましょう。オブジェクト名で`1yrf`が天然構造、`md`がトラジェクトリとなります。
 ```bash

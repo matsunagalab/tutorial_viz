@@ -1,4 +1,4 @@
-# Blender Molecular Nodes アドオン ハンズオンチュートリアル
+# Blender (Molecular Nodes add-on) チュートリアル
 
 <img src="images/blender.png" width="800">
 

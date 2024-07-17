@@ -22,7 +22,7 @@ VMD (Visual Molecular Dynamics)は、分子動力学シミュレーションの�
 
 ## VMDのインストール
 
-1. VMDの公式ウェブサイト(https://www.ks.uiuc.edu/Research/vmd/)にアクセスする。
+1. VMDの公式ウェブサイト( https://www.ks.uiuc.edu/Research/vmd/ )にアクセスする。
 2. 使用するOSに合わせたインストーラをダウンロードする。
 3. ダウンロードしたインストーラを実行し、画面の指示に従ってインストールを完了する。
 

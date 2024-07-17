@@ -28,7 +28,7 @@
 
 HomebrewでPyMOLをインストールするには @Ag_smithさん 謹製のHomebrewレシピを使わせてもらいます https://qiita.com/Ag_smith/items/58e917710c4eddab46ee
 ```bash
-$ brew install brewsci/bio/pymol
+$ brew install pymol
 ```
 
 #### 基本操作
